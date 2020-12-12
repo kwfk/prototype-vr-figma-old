@@ -1,3 +1,11 @@
+# PrototypeVR Figma Plugin
+
+PrototypeVR is a rapid prototyping system dedicated to improving design efficiency and effectiveness by enabling prototyping of smart devices in virtual reality.
+
+See the Unity implementation at this [GitHub repository](https://github.com/Joshuayangg/PrototypeVR)
+
+## Installation
+
 Below are the steps to get your plugin running. You can also find instructions at:
 
   https://www.figma.com/plugin-docs/setup/
@@ -11,20 +19,15 @@ libraries. You can find the download link here:
 
 Next, install TypeScript using the command:
 
+```bash
   npm install -g typescript
+```
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
+Finally, in the directory of your plugin, install the package:
 
-  npm install --save-dev @figma/plugin-typings
-
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
-
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
-
-For more information, visit https://www.typescriptlang.org/
+```bash
+  npm install
+```
 
 Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
 for the browser to run.
